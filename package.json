@@ -1,0 +1,15 @@
+{
+  "name": "db-connent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DB_HOST=localhost DB_PORT=8889 DB_USER=root DB_PASSWORD=root DB_INSTANCE=ta_db node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.10.2"
+  }
+}
